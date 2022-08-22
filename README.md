@@ -27,3 +27,4 @@ sudo docker-compose up
 ```console
 http://127.0.0.1:9411/zipkin/
 ```
+file:///home/double/Downloads/Screenshot%20at%202022-08-22%2012-16-01.png![image](https://user-images.githubusercontent.com/5527051/185891624-d2bc7cf0-f3a9-40f3-a8a6-598a04792457.png)
