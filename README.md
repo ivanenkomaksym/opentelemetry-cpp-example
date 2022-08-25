@@ -8,10 +8,11 @@ It demonstrates how C++ app exports logs and traces to OpenTelemetryCollector wi
 git clone --recursive https://github.com/open-telemetry/opentelemetry-cpp
 ```
 2. Copy-paste `hashset`, `miv_otlp` directories and `CMakeLists.txt` file into `opentelemetry-cpp/examples`
-3. Build opentelemetry-cpp
+3. Build opentelemetry-cpp & miv_otlp
 ```console
 mkdir build && cd build
 sudo cmake .. -DWITH_OTLP=ON -DENABLE_LOGS_PREVIEW=ON -DWITH_LOGS_PREVIEW=ON -DWITH_METRICS_PREVIEW=OFF -DENABLE_METRICS_PREVIEW=OFF
+sudo cmake --build . --target miv_otlp
 ```
 4. Run docker
 ```console
